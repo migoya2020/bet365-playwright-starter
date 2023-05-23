@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bet365-playwright-starter"
+version = "0.1.0"
+description = "bet365 playwright browser loader"
+authors = ["migoya2020 <dmigoya@gmail.com>"]
+readme = "README.md"
+packages = [{include = "bet365_playwright_starter"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+playwright = "1.25.2"
+loguru = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
