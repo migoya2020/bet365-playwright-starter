@@ -1,4 +1,4 @@
-*About this code*
+# About this code
 
 This code uses playwright-python v1.25.1
 I use older version of Playwright so that it can install older browser versions.
@@ -12,8 +12,7 @@ they are located here
 ~/Library/Caches/ms-playwright on MacOS
 ~/.cache/ms-playwright on Linux`
 
-**Things to Note**
-# bet365 fully loads all modules  on fullscreen (maximized browser window)
-# Will not load when DevTools in open
-# Will not work when browser is incognito
-# 
+# Things to Note
+## bet365 fully loads all modules  on fullscreen (maximized browser window)
+## Will not load when DevTools in open
+## Will not work when browser is incognito
