@@ -8,9 +8,9 @@ Alos, make sure to remove other borwsers that were installed earlier
 
 they are located here
 
-`%USERPROFILE%\AppData\Local\ms-playwright on Windows
-~/Library/Caches/ms-playwright on MacOS
-~/.cache/ms-playwright on Linux`
+`%USERPROFILE%\AppData\Local\ms-playwright on Windows`
+`~/Library/Caches/ms-playwright on MacOS`
+`~/.cache/ms-playwright on Linux`
 
 # Things to Note
 ## bet365 fully loads all modules  on fullscreen (maximized browser window)
