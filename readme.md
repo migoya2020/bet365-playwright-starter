@@ -1,3 +1,6 @@
+# Screencast
+[![Watch the video](./Screenshot.png)](./bet365_browser_Screencast.webm)
+
 # About this code
 
 This code uses playwright-python v1.25.1
