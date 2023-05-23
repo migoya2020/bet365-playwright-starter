@@ -59,9 +59,10 @@ request_headers = {
 def launchBrowser():
     with sync_playwright() as pw:
         # create browser instance
-        # browser = pw.firefox.launch_persistent_context(no_viewport=True, channel='firefox', ignore_https_errors=True, bypass_csp=False, java_script_enabled=True,ignore_default_args=DEFAULT_ARGS,  user_data_dir=dir_path+"/firefoxProfile", headless=False,  extra_http_headers=request_headers)
+        browser = pw.firefox.launch_persistent_context(no_viewport=True, channel='firefox', ignore_https_errors=True, bypass_csp=False, java_script_enabled=True,ignore_default_args=DEFAULT_ARGS,  user_data_dir=dir_path+"/firefoxProfile", headless=False,  extra_http_headers=request_headers)
+       
         # Uncomment to use Chromium
-        browser = pw.chromium.launch_persistent_context(no_viewport=True, channel='chrome',ignore_https_errors=True,bypass_csp=False, java_script_enabled=True,  ignore_default_args=DEFAULT_ARGS, user_data_dir=dir_path+"/chromeProfile",headless=False,  extra_http_headers=request_headers)
+        # browser = pw.chromium.launch_persistent_context(no_viewport=True, channel='chrome',ignore_https_errors=True,bypass_csp=False, java_script_enabled=True,  ignore_default_args=DEFAULT_ARGS, user_data_dir=dir_path+"/chromeProfile",headless=False,  extra_http_headers=request_headers)
         
         # create page instance
         page = browser.new_page()
