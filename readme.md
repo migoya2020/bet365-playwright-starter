@@ -1,5 +1,5 @@
 # Screencast
-[![Watch the video](./Screenshot.png)](./bet365_browser_Screencast.webm)
+[![Watch the video](./Screenshot.png)](https://youtu.be/tNNmkwNACho)
 
 # About this code
 
