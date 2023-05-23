@@ -1,6 +1,6 @@
 # Screencast
-[![Watch the video](./Screenshot.png)](https://youtu.be/tNNmkwNACho)
-
+<!-- [![Watch the Demo video](./Screenshot.png)](https://youtu.be/tNNmkwNACho) -->
+[<img src="Screenshot.png" width="50%">](https://youtu.be/tNNmkwNACho "Watch demo video")
 # About this code
 
 This code uses playwright-python v1.25.1
